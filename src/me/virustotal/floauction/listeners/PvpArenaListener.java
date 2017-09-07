@@ -7,10 +7,10 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
-import com.flobi.floauction.AuctionConfig;
-import com.flobi.floauction.AuctionParticipant;
-import com.flobi.floauction.AuctionScope;
-import com.flobi.floauction.FloAuction;
+import com.flobi.floAuction.AuctionConfig;
+import com.flobi.floAuction.AuctionParticipant;
+import com.flobi.floAuction.AuctionScope;
+import com.flobi.floAuction.FloAuction;
 
 public class PvpArenaListener implements Listener {
 	

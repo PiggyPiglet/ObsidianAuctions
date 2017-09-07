@@ -4,7 +4,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.inventory.InventoryClickEvent;
 
-import com.flobi.floauction.FloAuction;
+import com.flobi.floAuction.FloAuction;
 
 public class InventoryClickListener implements Listener {
 

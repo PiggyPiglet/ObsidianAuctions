@@ -1,4 +1,4 @@
-package com.flobi.floauction;
+package com.flobi.floAuction;
 
 import me.virustotal.floauction.listeners.MobArenaListener;
 import me.virustotal.floauction.listeners.PvpArenaListener;

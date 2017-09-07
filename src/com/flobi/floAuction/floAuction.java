@@ -1,4 +1,4 @@
-package com.flobi.floauction;
+package com.flobi.floAuction;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
@@ -54,7 +54,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitScheduler;
 import org.bukkit.util.FileUtil;
 
-import com.flobi.floauction.utilities.Functions;
+import com.flobi.floAuction.utilities.Functions;
 
 /**
  * A Bukkit based Minecraft plugin to facilitate auctions.
@@ -439,9 +439,7 @@ public class FloAuction extends JavaPlugin {
     {
     	MigrationUtil.mapOldStrings(); //Used to map the old config strings to new strings, check mappings.yml
 		File configFile = new File(dataFolder, "config.yml");
-    	InputStream defConfigStream = plugin.getResource("config.yml");;
     	File textConfigFile = new File(dataFolder, "language.yml");
-    	InputStream defTextConfigStream = plugin.getResource("language.yml");
     	File nameConfigFile = new File(dataFolder, "names.yml");
     	
     	if(!nameConfigFile.exists())
@@ -615,9 +613,9 @@ public class FloAuction extends JavaPlugin {
 	    }
 
 	    // Look for defaults in the jar
-	    if (defTextConfigStream != null) 
+	    if (configFile.exists())
 	    {
-	        defTextConfig = YamlConfiguration.loadConfiguration(defTextConfigStream);
+	        defTextConfig = YamlConfiguration.loadConfiguration(configFile);
 	        defTextConfigStream = null;
 	    }
 	    if (defTextConfig != null) 

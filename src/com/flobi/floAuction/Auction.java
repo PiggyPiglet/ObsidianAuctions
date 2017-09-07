@@ -1,4 +1,4 @@
-package com.flobi.floauction;
+package com.flobi.floAuction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,11 +15,11 @@ import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
-import com.flobi.floauction.events.AuctionBidEvent;
-import com.flobi.floauction.events.AuctionEndEvent;
-import com.flobi.floauction.events.AuctionStartEvent;
-import com.flobi.floauction.utilities.Functions;
-import com.flobi.floauction.utilities.Items;
+import com.flobi.floAuction.events.AuctionBidEvent;
+import com.flobi.floAuction.events.AuctionEndEvent;
+import com.flobi.floAuction.events.AuctionStartEvent;
+import com.flobi.floAuction.utilities.Functions;
+import com.flobi.floAuction.utilities.Items;
 
 /**
  * Main auction class.

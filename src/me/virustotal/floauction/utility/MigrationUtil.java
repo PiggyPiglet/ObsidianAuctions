@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 
-import com.flobi.floauction.FloAuction;
+import com.flobi.floAuction.FloAuction;
 
 public class MigrationUtil {
 	

@@ -1,4 +1,4 @@
-package com.flobi.floauction;
+package com.flobi.floAuction;
 
 import me.virustotal.floauction.utility.CArrayList;
 

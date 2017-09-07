@@ -1,4 +1,4 @@
-package com.flobi.floauction;
+package com.flobi.floAuction;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,7 @@ import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import com.flobi.floauction.utilities.Items;
+import com.flobi.floAuction.utilities.Items;
 
 /**
  * Structure to hold and process the items being auctioned.

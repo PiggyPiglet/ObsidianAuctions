@@ -1,4 +1,4 @@
-package com.flobi.floauction.utilities;
+package com.flobi.floAuction.utilities;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

@@ -1,4 +1,4 @@
-package com.flobi.floauction;
+package com.flobi.floAuction;
 
 import java.lang.reflect.InvocationTargetException;
 import java.text.DecimalFormat;
@@ -25,8 +25,8 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
 
-import com.flobi.floauction.utilities.Functions;
-import com.flobi.floauction.utilities.Items;
+import com.flobi.floAuction.utilities.Functions;
+import com.flobi.floAuction.utilities.Items;
 
 public class AuctionMessageManager extends MessageManager {
 	

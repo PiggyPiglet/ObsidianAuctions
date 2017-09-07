@@ -8,9 +8,9 @@ import org.bukkit.entity.EntityType;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 
-import com.flobi.floauction.AuctionConfig;
-import com.flobi.floauction.FloAuction;
-import com.flobi.floauction.utilities.Items;
+import com.flobi.floAuction.AuctionConfig;
+import com.flobi.floAuction.FloAuction;
+import com.flobi.floAuction.utilities.Items;
 
 public class MaterialUtil {
 
